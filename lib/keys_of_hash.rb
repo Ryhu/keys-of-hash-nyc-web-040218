@@ -1,5 +1,7 @@
 class Hash
   def keys_of(*args)
+    
+    
     result = []
     self.each do |key,val|
       args.each do |ele|
@@ -9,6 +11,10 @@ class Hash
       end
     end
     return result
+    
+    
+    
+    
   end
   
 end

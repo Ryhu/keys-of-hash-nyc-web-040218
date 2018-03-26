@@ -6,7 +6,7 @@ class Hash
     self.each do |key,val|
       args.each do |ele|
         if ele == key
-          result << val
+          result << key
         end
       end
     end
